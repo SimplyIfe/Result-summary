@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: green; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px #cac3f6;
+    width: 580px;
+}
+
+.first-container {
+    background-color: #563DF8;
+    border-radius: 0.8rem;
+    padding: 5rem;
+    color: #fff;
+    
+}
+
+.second-container {
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding: 4.5rem;
+}
+
+.first-heading {
+    font-size: 0.8rem;
+    opacity: .6;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 3rem;
+    text-align: center;
+}
+
+.circle-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%) ,  hsla(241, 72%, 46%, 0));
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+.circle-text {
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+.big-text {
+    font-size: 3rem;
+    display: block;
+}
+
+.small-text {
+    font-size: 0.7rem;
+    opacity: .6;
+    
+}
+
+.first-container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.smaller-text {
+    text-align: center;
+    font-size: 0.7rem;
+    opacity: .6;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.second-heading {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 2.7rem;
+    right: 43px;
+}
+
+.reaction-box {
+    position: absolute;
+    top: 70px;
+    left: 340px;
+    width: 220px;
+    background-color: #FFF6F5;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    
+}
+
+.memory-box {
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    width: 220px;
+    background-color: #fffbf2;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    
+}
+.verbal-box {
+    position: absolute;
+    top: 180px;
+    left: 340px;
+    width: 220px;
+    background-color: #f2fbfa;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    
+}
+
+.visual-box {
+    position: absolute;
+    top: 230px;
+    left: 340px;
+    width: 220px;
+    background-color: #F3F3FD;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    
+}
+
+.sub-container {
+    position: relative;
+    display: flex;
+    top: -10px;
+    right: 40px;
+    font-size: 10px;
+    z-index: 1;
+}
+.sub-container-memory {
+    position: relative;
+    display: flex;
+    top: 32px;
+    right: 40px;
+    font-size: 10px;
+    z-index: 1;
+}
+.sub-container-verbal {
+    position: relative;
+    display: flex;
+    top: 65px;
+    right: 40px;
+    font-size: 10px;
+    z-index: 1;
+}
+.sub-container-visual {
+    position: relative;
+    display: flex;
+    top: 105px;
+    right: 40px;
+    font-size: 10px;
+    z-index: 1;
+}
+
+.react {
+    color: #f55;
+}
+
+.memory {
+    color:#FFB21E;
+}
+
+.verbal {
+    color:#00BB8F;
+}
+
+.visual {
+    color: #1125D6;
+}
+
+.smallest-text {
+    position: relative;
+    left: 100px;
+    color: black;
+}
+
+.smallest {
+    position: relative;
+    left: 100px;
+    color: black;
+    opacity: .4;
+}
+
+.continue-button {
+    padding: 10px;
+    background-color: #303B59;
+    color: #fff;
+    position: relative;
+    top: 150px;
+    right: 40px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
